@@ -1,0 +1,31 @@
+header{
+    height:75px;
+    background-color: bisque;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.name{
+    color: chocolate;
+}
+
+section{
+    display: flex;
+}
+.left{
+ width:50%;
+ margin-left: 40px;
+}
+.right img{
+  width:65% ;
+  margin-top: 20px;
+  margin-left: 150px;
+}
