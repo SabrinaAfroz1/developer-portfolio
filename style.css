@@ -45,3 +45,17 @@ section{
     font-weight: 700;
 
 }
+.dream-big{
+    margin-top: 20px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-right{
+    width:50%;
+    margin-left: 50px;
+   }
+   .dream-left img{
+     width:70% ;
+     margin-left: 50px;
+   }
