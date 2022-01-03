@@ -21,7 +21,7 @@ h2{
     color: chocolate;
 }
 
-section{
+.flexible-container{
     display: flex;
 }
 .left{
@@ -59,3 +59,26 @@ section{
      width:70% ;
      margin-left: 50px;
    }
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.box{
+        width:35%;
+        margin-right: 5%;
+        margin-left: 5%;
+        padding-left: 12px;
+        box-shadow: 10px 10px 30px gray;
+        border-radius: 10px;
+        border-left: 7px solid;  
+}
+#one{
+  border-image:linear-gradient( orange, tomato) ;
+  border-image-slice:1 ;
+}
+#two{
+    border-image:linear-gradient(blue, cyan) ;
+  border-image-slice:1 ;
+}
